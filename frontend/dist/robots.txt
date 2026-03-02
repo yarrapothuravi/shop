@@ -1,0 +1,11 @@
+# Robots.txt for Raja Kumar Old Iron Shop
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rajakumarironshop.com/sitemap.xml
+
+# Disallow admin or private areas (if any in future)
+Disallow: /admin/
+Disallow: /api/

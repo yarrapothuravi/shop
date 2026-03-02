@@ -1,0 +1,54 @@
+.services {
+  background-color: var(--light-grey-bg);
+}
+
+.service-card {
+  text-align: center;
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  color: var(--steel-grey);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.service-description {
+  color: var(--secondary-text);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.price-note {
+  margin-top: 40px;
+  text-align: center;
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid var(--safety-yellow);
+}
+
+.price-note p {
+  font-size: 1.1rem;
+  color: var(--secondary-text);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .service-icon {
+    font-size: 2.5rem;
+  }
+
+  .service-title {
+    font-size: 1.1rem;
+  }
+
+  .price-note p {
+    font-size: 1rem;
+  }
+}

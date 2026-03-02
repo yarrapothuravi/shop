@@ -1,0 +1,36 @@
+.why-choose-us {
+  background-color: var(--light-grey-bg);
+}
+
+.reason-card {
+  text-align: center;
+  background: var(--white);
+  border: none;
+}
+
+.reason-icon {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.reason-title {
+  font-size: 1.3rem;
+  color: var(--steel-grey);
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.reason-description {
+  color: var(--secondary-text);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .reason-icon {
+    font-size: 2.8rem;
+  }
+
+  .reason-title {
+    font-size: 1.1rem;
+  }
+}
